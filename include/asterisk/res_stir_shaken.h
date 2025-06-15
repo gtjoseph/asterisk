@@ -235,6 +235,17 @@ int	ast_stir_shaken_vs_get_use_rfc9410_responses(
 		struct ast_stir_shaken_vs_ctx *ctx);
 
 /*!
+ * \brief Get ignore_sip_date_header from context
+ *
+ * \param ctx VS context
+ *
+ * \retval 1 if true
+ * \retval 0 if false
+ */
+int ast_stir_shaken_vs_get_ignore_sip_date_header(
+		struct ast_stir_shaken_vs_ctx *ctx);
+
+/*!
  * \brief Get caller_id from context
  *
  * \param ctx VS context
